@@ -1,0 +1,18 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.3.2",
+    "vite-plugin-libcss": "^1.0.6"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.6.1"
+  }
+}

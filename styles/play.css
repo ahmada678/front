@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(10, 10, 10);
+}
+.b1 {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  width: 200px;
+  height: 200px;
+  font-size: 300%;
+  border-radius: 50%;
+  background-color: aqua;
+  color: red;
+}
+.b2 {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  width: 200px;
+  height: 200px;
+  font-size: 300%;
+  border-radius: 50%;
+  background-color: aqua;
+  color: firebrick;
+}

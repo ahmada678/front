@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/video.css" />
+  </head>
+  <body>
+    <button class="baground">baground</button>
+    <div id="up">
+      <div class="fir">
+        <input
+          type="file"
+          name="first_video"
+          id="firstVideo"
+          accept="video/*,.mkv"
+          data-video-input
+        />
+      </div>
+
+      <div class="sec">
+        <input
+          type="file"
+          name="second_video"
+          id="secondVideo"
+          accept="video/*,.mkv"
+          data-video-input
+        />
+      </div>
+      <div class="thi">
+        <input
+          type="file"
+          name="third_video"
+          id="thirdVideo"
+          accept="video/*,.mkv"
+          data-video-input
+        />
+      </div>
+    </div>
+
+    <video id="videoPlay" class="asd"></video>
+  </body>
+  <script type="module" src="../scripts/video.js"></script>
+</html>

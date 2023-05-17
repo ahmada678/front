@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(224, 199, 162);
+}
+.baground {
+  position: absolute;
+  left: 44%;
+  top: 47%;
+  width: 10%;
+  height: 5%;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
+}
